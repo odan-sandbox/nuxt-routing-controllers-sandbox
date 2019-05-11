@@ -1,9 +1,11 @@
-### https://raw.github.com/github/gitignore/a5481c9e3a7ad99474107720058556d62e9419ca/Node.gitignore
-
+# Created by .ignore support plugin (hsz.mobi)
+### Node template
 # Logs
 logs
 *.log
 npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
 
 # Runtime data
 pids
@@ -23,15 +25,21 @@ coverage
 # Grunt intermediate storage (http://gruntjs.com/creating-plugins#storing-task-files)
 .grunt
 
+# Bower dependency directory (https://bower.io/)
+bower_components
+
 # node-waf configuration
 .lock-wscript
 
-# Compiled binary addons (http://nodejs.org/api/addons.html)
+# Compiled binary addons (https://nodejs.org/api/addons.html)
 build/Release
 
 # Dependency directories
-node_modules
-jspm_packages
+node_modules/
+jspm_packages/
+
+# TypeScript v1 declaration files
+typings/
 
 # Optional npm cache directory
 .npm
@@ -48,5 +56,29 @@ jspm_packages
 # Yarn Integrity file
 .yarn-integrity
 
+# dotenv environment variables file
+.env
 
+# parcel-bundler cache (https://parceljs.org/)
+.cache
 
+# next.js build output
+.next
+
+# nuxt.js build output
+.nuxt
+
+# Nuxt generate
+dist
+
+# vuepress build output
+.vuepress/dist
+
+# Serverless directories
+.serverless
+
+# IDE
+.idea
+
+# Service worker
+sw.*
